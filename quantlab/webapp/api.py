@@ -13,13 +13,13 @@ import pyarrow.ipc as ipc
 from fastapi import FastAPI, HTTPException, Query
 from fastapi.responses import FileResponse, JSONResponse
 from fastapi.staticfiles import StaticFiles
-from engine import Config
-from paths import data_directory, state_directory
+from quantlab.engine import Config
+from quantlab.paths import ROOT, data_directory, state_directory
 from .catalog import strategies
 from .jobs import JobManager, JobStore
 from .schemas import RunRequest
 
-BASE=Path(__file__).resolve().parent.parent
+BASE=ROOT
 STATIC=Path(__file__).with_name("static")
 TABLES={"equity","trades","positions","events"}
 

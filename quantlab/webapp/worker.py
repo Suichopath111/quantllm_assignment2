@@ -5,9 +5,8 @@ import sys
 import traceback
 import time
 from pathlib import Path
-sys.path.insert(0,str(Path(__file__).resolve().parent.parent))
-from engine import Config, load_data, run, save_result
-from factors import FactorLibrary
+from quantlab.engine import Config, load_data, run, save_result
+from quantlab.factors import FactorLibrary
 
 
 def execute(data_dir, output):

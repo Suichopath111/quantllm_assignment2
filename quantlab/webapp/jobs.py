@@ -9,6 +9,7 @@ import threading
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
 from uuid import uuid4
+from quantlab.paths import ROOT
 
 
 def now():
@@ -96,7 +97,7 @@ class JobManager:
                 self.store.update(identifier,status="running",started_at=now())
                 log = (folder / "worker.log").open("w",encoding="utf-8")
                 try:
-                    process = subprocess.Popen([sys.executable,"-u",str(Path(__file__).with_name("worker.py")),"--data",str(self.data_dir),"--output",str(folder)],stdout=log,stderr=subprocess.STDOUT,env={**os.environ,"PYTHONIOENCODING":"utf-8"},creationflags=subprocess.CREATE_NO_WINDOW if os.name=="nt" else 0)
+                    process = subprocess.Popen([sys.executable,"-u","-m","quantlab.webapp.worker","--data",str(self.data_dir),"--output",str(folder)],cwd=ROOT,stdout=log,stderr=subprocess.STDOUT,env={**os.environ,"PYTHONIOENCODING":"utf-8"},creationflags=subprocess.CREATE_NO_WINDOW if os.name=="nt" else 0)
                 except Exception:
                     log.close()
                     raise

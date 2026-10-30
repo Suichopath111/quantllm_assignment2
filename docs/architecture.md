@@ -2,7 +2,7 @@
 
 平台按信号计算、回测执行、实验编排、工作台服务四层组织。
 
-`factors.py` 读取行情矩阵并输出与行情对齐的信号分数。`engine.py` 只接收外部信号，负责逐日推进账户、交易约束、估值和绩效。`study.py` 编排开发期参数比较、参数冻结、验证和图表输出；`research.py` 生成横截面因子统计。
+`quantlab/factors.py` 读取行情矩阵并输出与行情对齐的信号分数。`quantlab/engine.py` 只接收外部信号，负责逐日推进账户、交易约束、估值和绩效。`scripts/study.py` 编排开发期参数比较、参数冻结、验证和图表输出；`scripts/research.py` 生成横截面因子统计。
 
 工作台的 `api.py` 提供页面、任务和结果接口，请求模型由 `schemas.py` 管理。`jobs.py` 将任务存入 SQLite，并使用单队列启动 `worker.py` 独立进程。每个任务的输入、进度、成交和净值都保存在自己的目录。服务启动时自动发现 `artifacts/runs/*/request.json`，将仓库内的完成结果载入工作台。
 

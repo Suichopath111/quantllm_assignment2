@@ -3,8 +3,8 @@ import argparse
 from pathlib import Path
 import json
 import pandas as pd
-from engine import Config, load_data, run, save_result
-from paths import data_directory, ROOT
+from quantlab.engine import Config, load_data, run, save_result
+from quantlab.paths import data_directory, ROOT
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="A 股外部信号回测")

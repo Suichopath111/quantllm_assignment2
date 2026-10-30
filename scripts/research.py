@@ -4,9 +4,9 @@ import sys
 import json
 import numpy as np
 import pandas as pd
-from engine import load_data
-from factors import FactorLibrary
-from paths import ROOT, data_directory
+from quantlab.engine import load_data
+from quantlab.factors import FactorLibrary
+from quantlab.paths import ROOT, data_directory
 
 def evaluate(score, labels, eligible, factor, dates, min_cross=30):
     rows, daily = [], []

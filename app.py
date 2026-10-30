@@ -2,8 +2,8 @@
 import argparse
 import sys
 import uvicorn
-from paths import data_directory, state_directory
-from webapp.api import create_app
+from quantlab.paths import data_directory, state_directory
+from quantlab.webapp.api import create_app
 
 def main():
     sys.stdout.reconfigure(encoding="utf-8")

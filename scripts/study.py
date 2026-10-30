@@ -12,9 +12,9 @@ import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 from matplotlib.ticker import PercentFormatter
-from engine import Config, load_data, run, save_result
-from factors import FactorLibrary
-from paths import ROOT, data_directory
+from quantlab.engine import Config, load_data, run, save_result
+from quantlab.factors import FactorLibrary
+from quantlab.paths import ROOT, data_directory
 
 LABELS = {"mom_60_skip5": "60日动量", "breakout_60": "60日突破", "low_vol_momentum": "低波动动量"}
 COLORS = {"mom_60_skip5": "#496bc0", "breakout_60": "#c79535", "low_vol_momentum": "#16836a"}

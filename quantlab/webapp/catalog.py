@@ -1,5 +1,5 @@
 """策略中文名称与分组。"""
-from factors import FactorLibrary
+from quantlab.factors import FactorLibrary
 
 LABELS = {
     "low_vol_momentum": ("低波动 + 动量", "组合", "20日低波动与跳过最近5日的60日动量，各占一半排名权重。"),
