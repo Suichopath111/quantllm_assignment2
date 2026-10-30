@@ -1,0 +1,18 @@
+{
+  "name": "低波动动量 · 2026验证 · 初始版",
+  "strategy": "low_vol_momentum",
+  "config": {
+    "initial_cash": 1000000,
+    "rebalance": 5,
+    "top_n": 50,
+    "min_history": 60,
+    "commission": 0.0003,
+    "min_commission": 5,
+    "slippage": 0.001,
+    "participation": 0.01,
+    "stale_days": 60,
+    "stale_policy": "writeoff",
+    "start": "2026-01-01",
+    "end": "2026-09-30"
+  }
+}

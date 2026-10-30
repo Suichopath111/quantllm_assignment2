@@ -1,0 +1,12 @@
+{
+  "start": "2025-01-01",
+  "end": "2026-09-30",
+  "step": 5,
+  "horizons": [
+    5,
+    10,
+    20
+  ],
+  "label": "open[t+h+1]/open[t+1]-1",
+  "costs_included": false
+}

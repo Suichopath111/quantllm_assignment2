@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#157f66"><title>QuantLab · 量化研究工作台</title><link rel="stylesheet" href="/assets/styles.css"></head>
+<body>
+<svg class="icon-defs" aria-hidden="true"><defs>
+<symbol id="i-grid" viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></symbol>
+<symbol id="i-chart" viewBox="0 0 24 24"><path d="M4 3v17h17M7 15l4-6 4 3 5-7"/></symbol>
+<symbol id="i-layers" viewBox="0 0 24 24"><path d="m12 3 10 5-10 5L2 8l10-5ZM2 12l10 5 10-5M2 16l10 5 10-5"/></symbol>
+<symbol id="i-db" viewBox="0 0 24 24"><ellipse cx="12" cy="5" rx="8" ry="3"/><path d="M4 5v14c0 4 16 4 16 0V5M4 12c0 4 16 4 16 0"/></symbol>
+<symbol id="i-arrow" viewBox="0 0 24 24"><path d="m6 17 12-12M6 5h12v12"/></symbol>
+<symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
+<symbol id="i-download" viewBox="0 0 24 24"><path d="M12 3v12m-5-5 5 5 5-5M4 15v5h16v-5"/></symbol>
+<symbol id="i-search" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></symbol>
+<symbol id="i-close" viewBox="0 0 24 24"><path d="m6 6 12 12M18 6 6 18"/></symbol>
+<symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
+<symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12 4 4L19 6"/></symbol>
+<symbol id="i-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 11v6M12 7v1"/></symbol>
+</defs></svg>
+<aside class="sidebar" id="sidebar">
+<a class="brand" href="#overview"><span class="brand-mark"><svg viewBox="0 0 26 26"><path d="M5 18 10 10l5 4 6-9M16 5h5v5"/></svg></span><span>Quant<span class="brand-light">Lab</span><small>量化研究工作台</small></span></a>
+<div class="nav-caption">WORKSPACE</div>
+<nav aria-label="主导航">
+<button class="nav-item active" data-view="overview"><svg><use href="#i-grid"/></svg>策略总览</button>
+<button class="nav-item" data-view="runs"><svg><use href="#i-chart"/></svg>回测管理<span class="nav-count" id="job-count">0</span></button>
+<button class="nav-item" data-view="factors"><svg><use href="#i-layers"/></svg>因子实验室<span class="nav-tag">49</span></button>
+<button class="nav-item" data-view="data"><svg><use href="#i-db"/></svg>数据中心</button>
+</nav>
+<div class="sidebar-note"><span class="live-dot"></span> 本地研究环境<p>沪深 A 股 · 日频数据</p><div class="note-line"></div><span class="muted">从想法，到可复现的研究。</span></div>
+<div class="sidebar-footer"><span class="avatar">Q</span><div>个人研究空间<small>LOCAL WORKSPACE</small></div><span class="version">v1.0</span></div>
+</aside>
+<div class="workspace">
+<header class="topbar"><div class="breadcrumb"><button class="mobile-toggle" aria-label="切换导航">☰</button><span>研究工作台</span><span class="slash">/</span><strong id="breadcrumb">策略总览</strong></div><div class="topbar-right"><span id="service-status" class="connection"><i></i>连接中</span><span class="divider"></span><span class="dataset-end" id="dataset-end">行情加载中</span></div></header>
+<main id="main" tabindex="-1"><div class="loading-state"><span class="spinner"></span>正在连接本地研究工作台…</div></main>
+<footer class="main-footer"><span>QuantLab / Research before execution.</span><span>2025—2026 策略研究 · 交易口径见数据中心</span></footer>
+</div>
+<div id="modal-root"></div><div id="toast-root" role="status" aria-live="polite"></div>
+<script type="module" src="/assets/app.js"></script>
+</body></html>

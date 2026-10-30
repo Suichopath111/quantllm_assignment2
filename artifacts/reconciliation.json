@@ -1,0 +1,101 @@
+[
+  {
+    "run": "breakout_60_full_selected",
+    "return_error": 0.0,
+    "drawdown_error": 0.0,
+    "sharpe_error": 6.661338147750939e-16,
+    "cash_error": 5.529727786779404e-10,
+    "fee_error": 9.458744898438454e-11,
+    "signal_precedes_execution": true,
+    "first_session": "2025-01-02",
+    "last_session": "2026-09-30"
+  },
+  {
+    "run": "breakout_60_validation_baseline",
+    "return_error": 0.0,
+    "drawdown_error": 0.0,
+    "sharpe_error": 2.220446049250313e-15,
+    "cash_error": 7.566995918750763e-10,
+    "fee_error": 6.912159733474255e-11,
+    "signal_precedes_execution": true,
+    "first_session": "2026-01-05",
+    "last_session": "2026-09-30"
+  },
+  {
+    "run": "breakout_60_validation_selected",
+    "return_error": 0.0,
+    "drawdown_error": 0.0,
+    "sharpe_error": 7.105427357601002e-15,
+    "cash_error": 1.0186340659856796e-09,
+    "fee_error": 3.092281986027956e-11,
+    "signal_precedes_execution": true,
+    "first_session": "2026-01-05",
+    "last_session": "2026-09-30"
+  },
+  {
+    "run": "low_vol_momentum_full_selected",
+    "return_error": 0.0,
+    "drawdown_error": 0.0,
+    "sharpe_error": 2.1649348980190553e-15,
+    "cash_error": 9.349605534225702e-10,
+    "fee_error": 1.382431946694851e-10,
+    "signal_precedes_execution": true,
+    "first_session": "2025-01-02",
+    "last_session": "2026-09-30"
+  },
+  {
+    "run": "low_vol_momentum_validation_baseline",
+    "return_error": 0.0,
+    "drawdown_error": 0.0,
+    "sharpe_error": 1.7763568394002505e-15,
+    "cash_error": 1.0368239600211382e-09,
+    "fee_error": 1.4551915228366852e-11,
+    "signal_precedes_execution": true,
+    "first_session": "2026-01-05",
+    "last_session": "2026-09-30"
+  },
+  {
+    "run": "low_vol_momentum_validation_selected",
+    "return_error": 0.0,
+    "drawdown_error": 0.0,
+    "sharpe_error": 1.7763568394002505e-15,
+    "cash_error": 1.0368239600211382e-09,
+    "fee_error": 1.4551915228366852e-11,
+    "signal_precedes_execution": true,
+    "first_session": "2026-01-05",
+    "last_session": "2026-09-30"
+  },
+  {
+    "run": "mom_60_skip5_full_selected",
+    "return_error": 0.0,
+    "drawdown_error": 0.0,
+    "sharpe_error": 5.551115123125783e-17,
+    "cash_error": 1.9444996723905206e-09,
+    "fee_error": 1.1641532182693481e-10,
+    "signal_precedes_execution": true,
+    "first_session": "2025-01-02",
+    "last_session": "2026-09-30"
+  },
+  {
+    "run": "mom_60_skip5_validation_baseline",
+    "return_error": 1.1102230246251565e-16,
+    "drawdown_error": 0.0,
+    "sharpe_error": 1.5057399771478686e-15,
+    "cash_error": 8.385541150346398e-10,
+    "fee_error": 1.2732925824820995e-11,
+    "signal_precedes_execution": true,
+    "first_session": "2026-01-05",
+    "last_session": "2026-09-30"
+  },
+  {
+    "run": "mom_60_skip5_validation_selected",
+    "return_error": 0.0,
+    "drawdown_error": 0.0,
+    "sharpe_error": 5.551115123125783e-17,
+    "cash_error": 8.258194128529794e-10,
+    "fee_error": 3.637978807091713e-12,
+    "signal_precedes_execution": true,
+    "first_session": "2026-01-05",
+    "last_session": "2026-09-30"
+  }
+]

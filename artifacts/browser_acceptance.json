@@ -1,0 +1,37 @@
+{
+  "browser_errors": [],
+  "screenshots": [
+    "low_vol_momentum_full.png",
+    "mom_60_skip5_full.png",
+    "breakout_60_full.png",
+    "comparison_full.png",
+    "comparison_validation.png",
+    "factors.png",
+    "data.png",
+    "job_submission.png",
+    "mobile.png",
+    "runs_completed.png"
+  ],
+  "views": [
+    "factors",
+    "data"
+  ],
+  "comparison_full.png": "低波动动量 · 全区间 · 迭代版 · 9.76%\n60日动量 · 全区间 · 迭代版 · 8.13%\n60日突破 · 全区间 · 迭代版 · -42.31%",
+  "comparison_validation.png": "低波动动量 · 2026验证 · 迭代版 · -11.22%\n60日动量 · 2026验证 · 迭代版 · -14.47%\n60日突破 · 2026验证 · 迭代版 · -22.71%",
+  "ui_submission": true,
+  "download": "study-low_vol_momentum_validation_selected-equity.csv",
+  "mobile_horizontal_overflow": false,
+  "ui_completed_runs": [
+    {
+      "id": "1019b33d1ea6467eb3679e3a18c9b1d8",
+      "status": "completed",
+      "name": "界面提交 · 低波动动量 · 2026年9月"
+    },
+    {
+      "id": "1cfdfdc00481430e80b3a202619d0c0c",
+      "status": "completed",
+      "name": "界面提交 · 低波动动量 · 2026年9月"
+    }
+  ],
+  "restart_persistence": true
+}

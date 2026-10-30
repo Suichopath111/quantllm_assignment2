@@ -1,0 +1,27 @@
+{
+  "config": {
+    "initial_cash": 1000000,
+    "rebalance": 5,
+    "top_n": 50,
+    "min_history": 60,
+    "commission": 0.0003,
+    "min_commission": 5,
+    "slippage": 0.001,
+    "participation": 0.01,
+    "stale_days": 60,
+    "stale_policy": "writeoff",
+    "start": "2026-01-01",
+    "end": "2026-09-30"
+  },
+  "start": "2026-01-05",
+  "end": "2026-09-30",
+  "total_return": -0.045133882705085115,
+  "annual_return": -0.06227689436971107,
+  "annual_volatility": 0.4101412182047276,
+  "sharpe": 0.047290292524496964,
+  "max_drawdown": -0.36786437168811015,
+  "trades": 1231,
+  "total_fees": 11525.543360411899,
+  "final_equity": 954866.1172949149,
+  "metadata_supplied": false
+}

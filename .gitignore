@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.web-state/
+.venv/
+feathers/
+*.feather
+*.log

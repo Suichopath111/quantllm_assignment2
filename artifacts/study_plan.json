@@ -1,0 +1,28 @@
+{
+  "start": "2025-01-01",
+  "train_end": "2025-12-31",
+  "validation_start": "2026-01-01",
+  "end": "2026-09-30",
+  "strategies": [
+    "mom_60_skip5",
+    "breakout_60",
+    "low_vol_momentum"
+  ],
+  "top_n": [
+    30,
+    50
+  ],
+  "rebalance": [
+    5,
+    10
+  ],
+  "selection": "2025年扣费日收益夏普最高；并列时优先较小回撤，再较低费用",
+  "initial_cash": 1000000,
+  "commission": 0.0003,
+  "min_commission": 5,
+  "slippage": 0.001,
+  "participation": 0.01,
+  "min_history": 60,
+  "stale_days": 60,
+  "stale_policy": "writeoff"
+}

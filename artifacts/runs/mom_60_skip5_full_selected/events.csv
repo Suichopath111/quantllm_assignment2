@@ -1,0 +1,15 @@
+﻿date,symbol,event,side
+2025-02-21,002364.SZ,limit_block,buy
+2025-03-14,600126.SH,limit_block,sell
+2025-04-07,600397.SH,limit_block,sell
+2025-04-07,603166.SH,limit_block,sell
+2025-04-07,603677.SH,limit_block,sell
+2025-04-07,605208.SH,limit_block,sell
+2025-09-05,601606.SH,limit_block,sell
+2025-09-19,605255.SH,limit_block,buy
+2025-10-13,600376.SH,limit_block,sell
+2025-10-13,688585.SH,limit_block,sell
+2026-01-07,001331.SZ,limit_block,buy
+2026-07-30,603065.SH,limit_block,sell
+2026-08-20,003032.SZ,limit_block,sell
+2026-09-03,603221.SH,limit_block,sell

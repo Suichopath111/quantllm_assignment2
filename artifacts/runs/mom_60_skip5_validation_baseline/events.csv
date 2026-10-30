@@ -1,0 +1,12 @@
+﻿date,symbol,event,side
+2026-01-12,003041.SZ,limit_block,buy
+2026-01-12,002931.SZ,limit_block,buy
+2026-01-19,603778.SH,limit_block,sell
+2026-01-26,002865.SZ,limit_block,buy
+2026-02-02,002931.SZ,limit_block,sell
+2026-02-02,002969.SZ,limit_block,sell
+2026-04-08,000890.SZ,limit_block,sell
+2026-04-08,603538.SH,limit_block,buy
+2026-06-01,603629.SH,limit_block,sell
+2026-06-08,603629.SH,limit_block,sell
+2026-09-08,002827.SZ,limit_block,sell
